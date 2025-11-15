@@ -1,0 +1,5 @@
+input()
+v = list(map(int,input().split()))
+a = min(v)
+print(f'Menor valor: {a}')
+print(f'Posicao: {v.index(a)}')
